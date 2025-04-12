@@ -31,7 +31,7 @@ document.getElementById("contact-form").addEventListener("submit", function (e) 
   const form = e.target; 
   const data = new FormData(form);
 
-  fetch("https://formspree.io/f/myzelarz", {
+  fetch("https://formspree.io/f/xkgjyjjb", {
     method: "POST",
     body: data,
     headers: {
